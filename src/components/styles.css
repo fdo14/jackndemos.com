@@ -1,0 +1,187 @@
+body{
+  background-color: #1a2128;
+  font-family: 'Caveat', cursive;
+  transition: background-color 2s ease;
+}
+.inner {
+
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 964px) {
+  .outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .inner {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.clicky:hover{
+  cursor: pointer;
+  color:#1a2128;
+  font-size: 40px;
+}
+
+
+
+.panel{
+  background-color: #FB5829;
+  margin-top: 25px;
+  height: 250px;
+  min-width: 250px !important;
+  max-width: 250px;
+}
+
+
+
+.panel:hover{
+  cursor: pointer;
+}
+
+.panel1{
+  background: url('./img/frontEnd.png');
+  background-color: #FB5829;
+  background-size: 250px;
+  transition: background-color 0.5s ease;
+}
+
+.panel1:hover{
+  background-color: purple;
+}
+
+.panel2{
+  background: url('./img/backEnd.png');
+  background-color: #FB5829;
+  background-size: 250px;
+  transition: background-color 0.5s ease;
+}
+
+.panel2:hover{
+  background-color: purple;
+}
+
+.panel3{
+  background: url('./img/fullStack.png');
+  background-color: #FB5829;
+  background-size: 250px;
+  transition: background-color 0.5s ease;
+}
+
+.panel3:hover{
+  background-color: purple;
+}
+
+.headerDesc{
+  color: white;
+  margin-bottom: 0;
+  font-size: 50px;
+}
+
+.row{
+  margin: auto;
+}
+
+.col-lg{
+  float: none;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 772px) and (max-width: 990px){
+  .col-lg{
+    margin-top: 25px;
+  }
+  .panel3{
+    margin-top: 30px;
+  }
+
+}
+
+@media (min-width: 525px) and (max-width: 772px) {
+  .col-lg{
+    margin-left: 30%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 525px)  {
+  .col-lg{
+
+    margin-top: 50px;
+  }
+}
+
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card{
+  margin: auto;
+}
+
+.smallHeader{
+  color: white;
+  margin-bottom: 0;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 20px !important;
+  transition: color 1s ease;
+  transition: font-size 1s ease;
+}
+
+@media only screen and (max-width: 510px) {
+  .card{
+    width: 95% !important;
+  }
+}
+
+.card-body{
+  font-size: 20px;
+  color: #1a2128;
+}
+
+.linky{
+  text-align: "center";
+  font-size: 18px;
+  transition: color 1s ease;
+  color: #FB5829;
+}
+
+.linky:hover{
+  color: #1a2128;
+}
+
+i{
+  color: #FB5829;
+}
+
+.btn{
+  color: #FB5829;
+  transition: color 1s ease;
+  font-family: 'Rubik', sans-serif;
+}
+
+.btn:hover{
+  color: #1a2128;
+}
